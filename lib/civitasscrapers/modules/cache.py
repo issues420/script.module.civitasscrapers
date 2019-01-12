@@ -23,7 +23,7 @@ import ast
 import hashlib
 import re
 import time
-from lambdascrapers.modules import control
+from civitasscrapers.modules import control
 
 try:
     from sqlite3 import dbapi2 as db, OperationalError

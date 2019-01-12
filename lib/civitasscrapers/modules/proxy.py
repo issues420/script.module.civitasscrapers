@@ -25,8 +25,8 @@ import re
 import urllib
 import urlparse
 
-from lambdascrapers.modules import client
-from lambdascrapers.modules import utils
+from civitasscrapers.modules import client
+from civitasscrapers.modules import utils
 
 
 def request(url, check, close=True, redirect=True, error=False, proxy=None, post=None, headers=None, mobile=False, XHR=False, limit=None, referer=None, cookie=None, compression=True, output='', timeout='30'):

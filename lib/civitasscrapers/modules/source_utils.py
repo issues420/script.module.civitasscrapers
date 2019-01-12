@@ -25,10 +25,10 @@ import urllib
 import hashlib
 import re
 
-from lambdascrapers.modules import client
-from lambdascrapers.modules import directstream
-from lambdascrapers.modules import trakt
-from lambdascrapers.modules import pyaes
+from civitasscrapers.modules import client
+from civitasscrapers.modules import directstream
+from civitasscrapers.modules import trakt
+from civitasscrapers.modules import pyaes
 
 def is_anime(content, type, type_id):
     try:

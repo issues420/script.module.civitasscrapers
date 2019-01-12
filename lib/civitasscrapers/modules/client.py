@@ -22,11 +22,11 @@
 
 import re,sys,cookielib,urllib,urllib2,urlparse,gzip,StringIO,HTMLParser,time,random,base64,xbmc
 
-from lambdascrapers.modules import cache
-from lambdascrapers.modules import workers
-from lambdascrapers.modules import dom_parser
-from lambdascrapers.modules import log_utils
-from lambdascrapers.modules import utils
+from civitasscrapers.modules import cache
+from civitasscrapers.modules import workers
+from civitasscrapers.modules import dom_parser
+from civitasscrapers.modules import log_utils
+from civitasscrapers.modules import utils
 
 
 def request(url, close=True, redirect=True, error=False, proxy=None, post=None, headers=None, mobile=False, XHR=False, limit=None, referer=None, cookie=None, compression=True, output='', timeout='30'):

@@ -8,7 +8,7 @@ import os, time, cProfile, StringIO, pstats, json, xbmc
 
 from xbmc import LOGDEBUG, LOGERROR, LOGFATAL, LOGINFO, LOGNONE, LOGNOTICE, LOGSEVERE, LOGWARNING  # @UnusedImport
 from datetime import date, datetime, timedelta
-from lambdascrapers.modules import control
+from civitasscrapers.modules import control
 
 name        = control.addonInfo('name')
 DEBUGPREFIX = '[COLOR red][ PLACENTA DEBUG ][/COLOR]' # Using color coding, for color formatted log viewers like Assassin's Tools

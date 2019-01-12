@@ -22,8 +22,8 @@
 
 import urllib,json
 
-from lambdascrapers.modules import cache
-from lambdascrapers.modules import client
+from civitasscrapers.modules import cache
+from civitasscrapers.modules import client
 
 
 class tvMaze:

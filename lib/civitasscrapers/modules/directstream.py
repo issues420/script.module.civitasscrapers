@@ -20,7 +20,7 @@
 # Addon id: script.module.lambdascrapers
 
 import re, os, urllib, urlparse, json, binascii
-from lambdascrapers.modules import client
+from civitasscrapers.modules import client
 
 
 def google(url):

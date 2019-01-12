@@ -266,7 +266,7 @@ def version():
 
 def cdnImport(uri, name):
     import imp
-    from lambdascrapers.modules import client
+    from civitasscrapers.modules import client
 
     path = os.path.join(dataPath, 'py' + name)
     path = path.decode('utf-8')

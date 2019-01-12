@@ -19,7 +19,7 @@
 # Addon Name: LambdaScrapers Module
 # Addon id: script.module.lambdascrapers
 
-from lambdascrapers.modules import log_utils
+from civitasscrapers.modules import log_utils
 
 try:
     import resolveurl
