@@ -5,7 +5,7 @@ import os.path
 
 import xbmcaddon
 
-__addon__ = xbmcaddon.Addon(id='script.module.lambdascrapers')
+__addon__ = xbmcaddon.Addon(id='script.module.civitasscrapers')
 
 def sources():
     try:

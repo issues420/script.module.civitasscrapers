@@ -18,7 +18,7 @@ params = dict(urlparse.parse_qsl(sys.argv[2].replace('?', '')))
 mode = params.get('mode')
 
 def ScraperChoice():
-    from lambdascrapers import providerSources
+    from civitasscrapers import providerSources
     sourceList = sorted(providerSources())
     control.idle()
     select = control.selectDialog([i for i in sourceList])
@@ -28,7 +28,7 @@ def ScraperChoice():
     control.openSettings('0.1')
 
 def ToggleProviderAll(enable):
-    from lambdascrapers import providerNames
+    from civitasscrapers import providerNames
     sourceList = providerNames()
     (setting, open_id) = ('true', '0.3') if enable else ('false', '0.2')
     for i in sourceList:
@@ -37,7 +37,7 @@ def ToggleProviderAll(enable):
     control.openSettings(open_id)
 
 def toggleAll(setting, open_id=None, sourceList=None):
-    from lambdascrapers import getAllHosters
+    from civitasscrapers import getAllHosters
     sourceList = getAllHosters() if not sourceList else sourceList
     for i in sourceList:
         source_setting = 'provider.' + i
