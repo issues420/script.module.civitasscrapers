@@ -34,9 +34,8 @@ from civitasscrapers.modules import log_utils
 from civitasscrapers.modules import utils
 
 BASE_URL = 'https://api.trakt.tv'
-#BASE_URL = 'https://api-v2launch.trakt.tv'
-V2_API_KEY = '63fe87cccaeb593c552681ded0477b57c72591ec2f0c6d07d6b95530a39bbe68'
-CLIENT_SECRET = '425c71be41c7cc2aaeb75a3936cf59a045954f53e8d48c6b4ec9b172c1fc4b3c'
+V2_API_KEY = '42740047aba33b1f04c1ba3893ce805a9ecfebd05de544a30fe0c99fabec972e'
+CLIENT_SECRET = 'c7a3e7fdf5c3863872c8f45e1d3f33797b492ed574a00a01a3fadcb3d270f926'
 REDIRECT_URI = 'urn:ietf:wg:oauth:2.0:oob'
 
 def __getTrakt(url, post=None):

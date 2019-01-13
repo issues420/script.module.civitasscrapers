@@ -28,20 +28,20 @@ import re
 from resources.lib.modules import cleantitle
 from resources.lib.modules import cfscrape
 from resources.lib.modules import source_utils
-
+from resources.lib.modules import directstream
 
 class source:
     def __init__(self):
         self.priority = 1
         self.language = ['en']
-        self.domains = ['playmovies.es']
-        self.base_link = 'http://playmovies.es'
+        self.domains = ['movietoken.to']
+        self.base_link = 'https://movietoken.to'
         self.search_link = '/%s'
 
     def movie(self, imdb, title, localtitle, aliases, year):
         try:
             title = cleantitle.geturl(title)
-            url = self.base_link + self.search_link % title
+            url = self.base_link + self.search_link % (title)
             return url
         except:
             return
@@ -70,4 +70,4 @@ class source:
         return sources
 
     def resolve(self, url):
-        return url
+        return directstream.googlepass(url)
