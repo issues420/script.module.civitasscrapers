@@ -61,7 +61,7 @@ if mode == "toggleAll":
     toggleAll(params['setting'], open_id, sourceList=sourcelist)
 
 if mode == "toggleAllDebrid":
-    sourcelist = ['300mbfilms','bestmoviez','directdl','invictus','myvideolink','playmovies','scenerls','ultrahd','wrzcraft']
+    sourcelist = ['300mbfilms','bestmoviez','directdl','ddlvalley','invictus','myvideolink','playmovies','scenerls','ultrahd','wrzcraft']
     toggleAll(params['setting'], params['open_id'], sourcelist)
 
 if mode == "toggleAllGerman":
@@ -81,5 +81,5 @@ if mode == "toggleAllTorrent":
     toggleAll(params['setting'], params['open_id'], sourcelist)
 
 if mode == "Defaults":
-    sourcelist = ['0123putlocker','123fox','123hbo','123hulu','123moviehd','123movieshubz','123movies','123movies4u','123moviesex','123moviesfree','123moviesfreenow','123movieshubvip','300mbdownload','animetoon','azmovies','bnwmovies','cartoonhd','cmovies','cmovieshdbz','coolmoviezone','extramovies','fmovies','freefmovies','freeputlockers','furk','gostream','gowatchseries','Hdmto','hdpopcorns','kattv','l23movies','library','moviesonline','movietoken','myprojectfreetv','openloadmovie','ororo','plocker','primewire','putlocker','reddit','rlsbb','seehd','series9','seriesfree','seriesonline','solarmovies','tvbox','videoscraper','vidics','watchseries','xwatchseries']
+    sourcelist = ['0123putlocker','123fox','123hbo','123hulu','123moviehd','123movieshubz','123movies','123movies4u','123moviesex','123moviesfree','123moviesfreenow','123movieshubvip','300mbdownload','animetoon','azmovies','bnwmovies','cartoonhd','cmovies','cmovieshdbz','coolmoviezone','extramovies','fmovies','freefmovies','freeputlockers','furk','gostream','gowatchseries','Hdmto','hdpopcorns','kattv','l23movies','library','moviesonline','movietoken','myprojectfreetv','openloadmovie','ororo','plocker','primewire','putlocker','reddit','rlsbb','scenerls','seehd','series9','seriesfree','seriesonline','solarmovies','tvbox','videoscraper','vidics','watchseries','xwatchseries']
     toggleAll(params['setting'], params['open_id'], sourcelist)
