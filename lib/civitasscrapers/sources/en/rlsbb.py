@@ -136,7 +136,7 @@ class source:
                                 name = str(i)
                                 if hdlr in name.upper(): items.append(name)
                                 elif len(premDate) > 0 and premDate in name.replace(".","-"): items.append(name)      
-                                
+                                elif ".".join([word[0] for word in title.upper().split()]) in name.upper(): items.append(name)  
                             except:
                                 pass
                     except:
@@ -168,6 +168,8 @@ class source:
                         quality = 'HD'
                     elif '1080p' in host2:
                         quality = '1080p'
+                    elif '2160p' in host2:
+                        quality = '4K'
                     else:
                         quality = 'SD'
 
