@@ -136,7 +136,7 @@ class source:
                                 name = str(i)
                                 if hdlr in name.upper(): items.append(name)
                                 elif len(premDate) > 0 and premDate in name.replace(".","-"): items.append(name)      
-                                elif ".".join([word[0] for word in title.upper().split()]) in name.upper(): items.append(name)  
+                                
                             except:
                                 pass
                     except:
